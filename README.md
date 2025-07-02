@@ -103,6 +103,70 @@ This project aims to answer several critical business questions by analyzing the
 
 ---
 
+# Key Questions & Insights from Food Delivery Dataset
+
+## User Behavior & Segmentation
+1. How many active users place orders monthly?  
+2. What is the distribution of orders per user? (e.g., frequent vs occasional users)  
+3. What percentage of users are loyal customers vs new users?  
+4. Which cities have the highest user signup rates?  
+5. What devices do users most commonly use to place orders?  
+6. What is the average time between user signup and first order?  
+7. How often do users log in before placing an order?  
+8. Which users have the highest lifetime order value?  
+9. What is the average order frequency per user?  
+10. How do user order patterns vary by time of day or day of week?  
+
+## Restaurant & Menu Insights
+11. Which restaurants receive the most orders overall?  
+12. What are the top cuisines ordered by users?  
+13. How does restaurant rating correlate with the number of orders?  
+14. Which menu items are the most popular across all restaurants?  
+15. What is the average price per menu item by cuisine?  
+16. How often do menu items go out of availability?  
+17. How do menu item price changes affect sales volume?  
+18. Which restaurants have the highest average order value?  
+19. Are there restaurants with consistently low ratings? Why?  
+20. Which cities have the most diverse cuisine options?  
+
+## Order & Payment Analysis
+21. What is the average order value (AOV) across the platform?  
+22. How does AOV vary by user segment (loyal vs new)?  
+23. What is the distribution of order statuses? (completed, canceled, etc.)  
+24. What are the common cancellation reasons?  
+25. Which payment methods are most popular among users?  
+26. Is there a payment method associated with higher order success rates?  
+27. How often do promotions get applied to orders?  
+28. What is the average discount amount per promotion?  
+29. How much revenue is generated from promoted orders vs regular orders?  
+30. Are certain payment methods linked to higher order cancellation rates?  
+
+## Delivery Performance
+31. What is the average delivery time from pickup to drop-off?  
+32. How does delivery time vary by city or region?  
+33. Which delivery persons have the best on-time delivery rates?  
+34. What percentage of deliveries experience status delays?  
+35. How many delivery attempts are made before successful delivery?  
+36. Are there delivery time patterns by time of day or day of week?  
+37. How does delivery distance impact delivery time and user satisfaction?  
+38. What is the average number of status updates per delivery?  
+39. How often do delivery delays lead to order cancellations?  
+40. Which delivery person has the highest customer rating?  
+
+## Ratings & Feedback
+41. What is the average customer rating per restaurant?  
+42. Which restaurants have the most positive or negative feedback?  
+43. How does customer rating correlate with order frequency?  
+44. Are lower-rated orders more likely to be canceled or delayed?  
+45. What keywords or themes appear most in customer feedback?  
+46. How do ratings vary by cuisine or city?  
+47. What percentage of orders receive customer ratings?  
+48. Is there a difference in ratings between users on different devices?  
+49. How do promotions affect customer satisfaction and ratings?  
+50. What improvements can be identified from common feedback issues?  
+
+
+---
 ## Technologies Used
 
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
