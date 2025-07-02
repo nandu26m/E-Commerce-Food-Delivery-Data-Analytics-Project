@@ -109,31 +109,31 @@ This project aims to answer several critical business questions by analyzing the
 
 ---
 
-├── data/
-│ ├── users.csv
-│ ├── restaurants.csv
-│ ├── menu_items.csv
-│ ├── orders.csv
-│ ├── order_items.csv
-│ ├── deliveries.csv
-│ ├── payments.csv
-│ ├── ratings.csv
-│ ├── delivery_persons.csv
-│ ├── payment_methods.csv
-│ ├── promotions.csv
-│ ├── order_promotions.csv
-│ ├── menu_item_history.csv
-│ ├── delivery_status_history.csv
-│ └── user_logins.csv
-├── notebooks/
-│ ├── data_analysis.ipynb
-│ ├── delivery_performance.ipynb
-│ └── customer_segmentation.ipynb
-├── docs/
-│ └── schema.png
-├── schema.dbml
-├── README.md
-└── requirements.txt
+data/
+|-- users.csv
+|-- restaurants.csv
+|-- menu_items.csv
+|-- orders.csv
+|-- order_items.csv
+|-- deliveries.csv
+|-- payments.csv
+|-- ratings.csv
+|-- delivery_persons.csv
+|-- payment_methods.csv
+|-- promotions.csv
+|-- order_promotions.csv
+|-- menu_item_history.csv
+|-- delivery_status_history.csv
+|-- user_logins.csv
+notebooks/
+|-- data_analysis.ipynb
+|-- delivery_performance.ipynb
+|-- customer_segmentation.ipynb
+docs/
+|-- schema.png
+schema.dbml
+README.md
+requirements.txt
 
 ---
 
