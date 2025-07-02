@@ -1,1 +1,126 @@
 
+Table users {
+  user_id int [pk]
+  name varchar
+  email varchar
+  signup_date datetime
+  city varchar
+  device varchar
+  is_loyal boolean
+}
+
+Table restaurants {
+  restaurant_id int [pk]
+  name varchar
+  cuisine varchar
+  rating float
+  city varchar
+}
+
+Table menu_items {
+  item_id int [pk]
+  restaurant_id int [ref: > restaurants.restaurant_id]
+  item_name varchar
+  price decimal
+  is_available boolean
+}
+
+Table orders {
+  order_id int [pk]
+  user_id int [ref: > users.user_id]
+  restaurant_id int [ref: > restaurants.restaurant_id]
+  order_datetime datetime
+  total_amount decimal
+  payment_method varchar
+  status varchar
+}
+
+Table order_items {
+  order_item_id int [pk]
+  order_id int [ref: > orders.order_id]
+  item_id int [ref: > menu_items.item_id]
+  quantity int
+  item_price decimal
+}
+
+Table delivery_persons {
+  delivery_person_id int [pk]
+  name varchar
+  phone varchar
+  city varchar
+  active_status boolean
+}
+
+Table deliveries {
+  delivery_id int [pk]
+  order_id int [ref: > orders.order_id]
+  delivery_person_id int [ref: > delivery_persons.delivery_person_id]
+  pickup_time datetime
+  drop_time datetime
+  distance_km float
+  status varchar
+}
+
+Table payments {
+  payment_id int [pk]
+  order_id int [ref: > orders.order_id]
+  amount decimal
+  payment_method varchar
+  payment_datetime datetime
+  payment_status varchar
+}
+
+Table ratings {
+  rating_id int [pk]
+  order_id int [ref: > orders.order_id]
+  user_id int [ref: > users.user_id]
+  restaurant_id int [ref: > restaurants.restaurant_id]
+  rating float
+  feedback text
+}
+
+Table payment_methods {
+  payment_method_id int [pk]
+  method_name varchar
+  description text
+}
+
+Table promotions {
+  promotion_id int [pk]
+  promotion_name varchar
+  discount_percentage float
+  start_date datetime
+  end_date datetime
+  description text
+}
+
+Table order_promotions {
+  order_promotion_id int [pk]
+  order_id int [ref: > orders.order_id]
+  promotion_id int [ref: > promotions.promotion_id]
+  discount_amount decimal
+}
+
+Table menu_item_history {
+  history_id int [pk]
+  item_id int [ref: > menu_items.item_id]
+  price decimal
+  is_available boolean
+  start_date datetime
+  end_date datetime
+}
+
+Table delivery_status_history {
+  status_history_id int [pk]
+  delivery_id int [ref: > deliveries.delivery_id]
+  status varchar
+  status_time datetime
+}
+
+Table user_logins {
+  login_id int [pk]
+  user_id int [ref: > users.user_id]
+  login_time datetime
+  device varchar
+  ip_address varchar
+}
