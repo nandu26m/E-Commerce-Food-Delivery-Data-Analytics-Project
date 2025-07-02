@@ -129,3 +129,20 @@ GitHub: [github.com/nandu26m](https://github.com/nandu26m)
 
 ---
 
+| Table                         | Number of Records | Notes   |
+| ----------------------------- | --------------------------- |
+| **users**                     | 10,000                      |
+| **restaurants**               | 500                         |
+| **menu\_items**               | 5,000                       |
+| **orders**                    | 50,000                      |
+| **order\_items**              | 120,000                     |
+| **delivery\_persons**         | 200                         |
+| **deliveries**                | 48,000                      |
+| **payments**                  | 50,000                      |
+| **ratings**                   | 25,000                      |
+| **payment\_methods**          | 5                           |
+| **promotions**                | 50                          |
+| **order\_promotions**         | 8,000                       |
+| **menu\_item\_history**       | 10,000                      |
+| **delivery\_status\_history** | 150,000                     |
+| **user\_logins**              | 80,000                      |
