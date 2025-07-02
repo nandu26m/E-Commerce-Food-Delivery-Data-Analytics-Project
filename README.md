@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project focuses on analyzing an e-commerce food delivery platform similar to companies like Delivery Hero or Uber Eats. The goal is to explore user behavior, restaurant performance, order patterns, delivery efficiency, payment methods, and customer satisfaction through comprehensive data analysis.
+This project focuses on analyzing an e-commerce food delivery platform, similar to companies like Delivery Hero or Uber Eats. My goal is to explore key business areas such as user behavior, restaurant performance, order patterns, delivery efficiency, payment methods, and customer satisfaction through comprehensive data analysis.
 
-We use a realistic, relational database schema covering all aspects of the platform: users, restaurants, menus, orders, deliveries, payments, and ratings. This enables end-to-end insights into the entire food delivery lifecycle.
+I designed and worked with a realistic, relational database schema that captures all essential aspects of the platform — including users, restaurants, menus, orders, deliveries, payments, and ratings — to simulate a real-world operational environment.
 
 ---
 ## Database Schema
