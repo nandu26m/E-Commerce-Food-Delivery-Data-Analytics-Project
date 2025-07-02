@@ -115,7 +115,7 @@ This project is open source under the MIT License.
 For questions or collaborations, please contact:
 
 **Nandu**  
-Email: your.email@example.com  
+Email: nandu26m.com  
 GitHub: [github.com/yourusername](https://github.com/yourusername)
 
 ---
