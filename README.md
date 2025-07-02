@@ -7,8 +7,13 @@ This project focuses on analyzing an e-commerce food delivery platform similar t
 We use a realistic, relational database schema covering all aspects of the platform: users, restaurants, menus, orders, deliveries, payments, and ratings. This enables end-to-end insights into the entire food delivery lifecycle.
 
 ---
+## Database Schema
 
-## Database Schema and Tables
+### Schema Diagram
+
+![Database Schema](./docs/schema.png)
+
+## Database Tables
 
 The schema consists of the following main tables, designed to capture all relevant data points in the system:
 
@@ -104,6 +109,34 @@ This project aims to answer several critical business questions by analyzing the
 
 ---
 
+├── data/
+│   ├── users.csv
+│   ├── restaurants.csv
+│   ├── menu_items.csv
+│   ├── orders.csv
+│   ├── order_items.csv
+│   ├── deliveries.csv
+│   ├── payments.csv
+│   ├── ratings.csv
+│   ├── delivery_persons.csv
+│   ├── payment_methods.csv
+│   ├── promotions.csv
+│   ├── order_promotions.csv
+│   ├── menu_item_history.csv
+│   ├── delivery_status_history.csv
+│   └── user_logins.csv
+├── notebooks/
+│   ├── data_analysis.ipynb
+│   ├── delivery_performance.ipynb
+│   └── customer_segmentation.ipynb
+├── docs/
+│   └── schema.png
+├── schema.dbml
+├── README.md
+└── requirements.txt
+
+---
+
 ## License
 
 This project is open source under the MIT License.
@@ -116,7 +149,7 @@ For questions or collaborations, please contact:
 
 **Nandu**  
 Email: nandu26m.com  
-GitHub: [github.com/yourusername](https://github.com/yourusername)
+GitHub: [github.com/nandu26m](https://github.com/nandu26m)
 
 ---
 
