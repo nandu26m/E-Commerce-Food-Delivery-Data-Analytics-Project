@@ -52,6 +52,27 @@ The schema consists of the following main tables, designed to capture all releva
 
 ---
 
+## Suggested Data Volume per Table
+
+| Table                  | Suggested Number of Records | Notes                                                         |
+|------------------------|-----------------------------|---------------------------------------------------------------|
+| **users**              | 10,000                      | Diverse user base to reflect varied activity patterns          |
+| **restaurants**        | 500                         | Variety of restaurants across multiple cities and cuisines      |
+| **menu_items**         | 5,000                       | Approximately 10 menu items per restaurant                      |
+| **orders**             | 50,000                      | Around 5 orders per user on average                             |
+| **order_items**        | 120,000                     | Multiple items per order (avg ~2.4 items/order)                 |
+| **delivery_persons**   | 200                         | Delivery staff to cover operational needs                       |
+| **deliveries**         | 48,000                      | Successful deliveries for ~96% of orders                        |
+| **payments**           | 50,000                      | One payment record per order                                    |
+| **ratings**            | 25,000                      | About 50% of orders receive ratings/feedback                    |
+| **payment_methods**    | 5                           | Common payment types like Credit Card, PayPal, Apple Pay, etc.  |
+| **promotions**         | 50                          | Various marketing campaigns                                     |
+| **order_promotions**   | 8,000                       | ~16% of orders use promotions                                   |
+| **menu_item_history**  | 10,000                      | Tracks pricing and availability changes over time               |
+| **delivery_status_history** | 150,000                | Multiple status updates per delivery (~3 updates per delivery)  |
+| **user_logins**        | 80,000                      | Multiple logins per user (avg ~8 logins per user)               |
+
+---
 ## Key Analytical Questions and Findings
 
 This project aims to answer several critical business questions by analyzing the data:
@@ -129,23 +150,5 @@ GitHub: [github.com/nandu26m](https://github.com/nandu26m)
 
 ---
 
-## Suggested Data Volume per Table
 
-| Table                  | Suggested Number of Records | Notes                                                         |
-|------------------------|-----------------------------|---------------------------------------------------------------|
-| **users**              | 10,000                      | Diverse user base to reflect varied activity patterns          |
-| **restaurants**        | 500                         | Variety of restaurants across multiple cities and cuisines      |
-| **menu_items**         | 5,000                       | Approximately 10 menu items per restaurant                      |
-| **orders**             | 50,000                      | Around 5 orders per user on average                             |
-| **order_items**        | 120,000                     | Multiple items per order (avg ~2.4 items/order)                 |
-| **delivery_persons**   | 200                         | Delivery staff to cover operational needs                       |
-| **deliveries**         | 48,000                      | Successful deliveries for ~96% of orders                        |
-| **payments**           | 50,000                      | One payment record per order                                    |
-| **ratings**            | 25,000                      | About 50% of orders receive ratings/feedback                    |
-| **payment_methods**    | 5                           | Common payment types like Credit Card, PayPal, Apple Pay, etc.  |
-| **promotions**         | 50                          | Various marketing campaigns                                     |
-| **order_promotions**   | 8,000                       | ~16% of orders use promotions                                   |
-| **menu_item_history**  | 10,000                      | Tracks pricing and availability changes over time               |
-| **delivery_status_history** | 150,000                | Multiple status updates per delivery (~3 updates per delivery)  |
-| **user_logins**        | 80,000                      | Multiple logins per user (avg ~8 logins per user)               |
 
