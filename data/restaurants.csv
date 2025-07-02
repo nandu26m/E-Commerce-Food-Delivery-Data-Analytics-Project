@@ -1,0 +1,501 @@
+restaurant_id,name,cuisine,rating,city
+1,Morales and Sons Kitchen,French,4.3,Stuttgart
+2,Johnson Ltd Cafe,Indian,4.2,Munich
+3,"Allison, Olsen and Kennedy House",Greek,3.9,Hamburg
+4,Francis-Carter Kitchen,Lebanese,4.2,Stuttgart
+5,"Edwards, Walker and Anthony Diner",Korean,3.1,Düsseldorf
+6,Hamilton-Mcdaniel Cafe,Indian,4.4,Stuttgart
+7,Thomas-Cruz House,Korean,4.8,Hamburg
+8,Vargas LLC Kitchen,Lebanese,3.1,Hamburg
+9,Lewis-Choi House,Greek,2.7,Düsseldorf
+10,"Melton, Franklin and Wilson House",Korean,4.8,Berlin
+11,Vaughn Group Cafe,Korean,3.9,Düsseldorf
+12,"Young, Jensen and Brown House",French,3.2,Düsseldorf
+13,Flynn Ltd Bistro,Japanese,3.8,Frankfurt
+14,Lang-Diaz Bistro,French,4.1,Düsseldorf
+15,"Mccoy, Chase and Underwood Kitchen",Thai,3.4,Cologne
+16,Rivera-Watson Bistro,Turkish,4.4,Hamburg
+17,"Myers, Davis and Maldonado Kitchen",Japanese,4.6,Berlin
+18,"Wilson, Lee and Moran Kitchen",Korean,4.4,Berlin
+19,Bailey-Mckinney Diner,Thai,3.3,Cologne
+20,"Hale, Robertson and Harding Cafe",Vietnamese,3.0,Stuttgart
+21,Castro-Harris Kitchen,Japanese,4.8,Berlin
+22,Franklin-Hanson Cafe,Greek,2.5,Hamburg
+23,"Mclaughlin, Hoffman and Jacobs Bistro",Lebanese,4.6,Stuttgart
+24,Wilson-Meyer Diner,Turkish,3.4,Cologne
+25,Harvey-Williams Kitchen,Chinese,3.2,Düsseldorf
+26,"Coleman, Edwards and Bailey Bistro",Korean,3.6,Stuttgart
+27,"Wolf, Anderson and Wood Kitchen",Lebanese,4.7,Berlin
+28,Sanchez and Sons Diner,Vietnamese,4.7,Cologne
+29,"Brown, Joyce and Taylor House",Lebanese,2.7,Frankfurt
+30,"Brown, Turner and Hawkins Cafe",Chinese,4.4,Frankfurt
+31,Jones PLC Diner,Thai,4.8,Cologne
+32,Dodson Inc Kitchen,Mexican,3.9,Hamburg
+33,Miller-Curtis Cafe,Mediterranean,3.7,Berlin
+34,Ward-Coffey Bistro,Korean,2.6,Munich
+35,Stuart-Garcia House,Turkish,2.8,Hamburg
+36,Sandoval Inc House,Chinese,4.7,Düsseldorf
+37,Chandler-Miller Cafe,Turkish,2.8,Stuttgart
+38,"Miller, Bernard and Herrera Kitchen",Mediterranean,4.2,Cologne
+39,Middleton Ltd House,Turkish,3.8,Berlin
+40,Johnson Ltd Diner,American,3.5,Frankfurt
+41,"Mcguire, Hoffman and Thomas House",Chinese,3.3,Munich
+42,"Alvarez, Murphy and Jones Kitchen",Mexican,4.1,Stuttgart
+43,Bryant-Green Kitchen,Japanese,4.7,Hamburg
+44,Brown Inc Diner,Mediterranean,4.9,Frankfurt
+45,Harris Inc House,Japanese,3.8,Frankfurt
+46,Delgado Group Bistro,French,3.9,Munich
+47,Nash-Williams Kitchen,Italian,3.1,Stuttgart
+48,Morales-Barnes Bistro,American,4.1,Stuttgart
+49,Brown-Gonzales Diner,Korean,2.7,Munich
+50,Chapman LLC Bistro,Lebanese,4.7,Stuttgart
+51,Davis and Sons Cafe,Thai,3.1,Frankfurt
+52,Campbell-Macias Diner,French,4.8,Cologne
+53,Sampson and Sons Cafe,Spanish,2.7,Frankfurt
+54,"Vega, Robinson and Ray Bistro",Lebanese,4.6,Frankfurt
+55,Chang Ltd Bistro,Turkish,4.4,Berlin
+56,"Castillo, Richardson and Lewis House",Thai,4.3,Berlin
+57,Sherman-Mitchell Diner,Lebanese,3.6,Hamburg
+58,Reynolds-Adams Kitchen,Mediterranean,3.0,Frankfurt
+59,Carter-Robles Cafe,French,2.6,Stuttgart
+60,Gregory and Sons Kitchen,Indian,2.7,Stuttgart
+61,Cooper-Rice House,Mediterranean,3.4,Stuttgart
+62,Wilson-Eaton Diner,Italian,4.8,Stuttgart
+63,"Aguirre, Robinson and Snyder Cafe",Turkish,4.0,Frankfurt
+64,Cook-Jacobs Cafe,Vietnamese,3.6,Hamburg
+65,Proctor PLC Diner,Indian,4.2,Berlin
+66,Bonilla-Horton Diner,Korean,2.6,Cologne
+67,Petty-Armstrong Kitchen,Chinese,3.9,Berlin
+68,Brown-Osborne Diner,Chinese,4.0,Cologne
+69,Stevens Group Bistro,Korean,2.7,Stuttgart
+70,Phelps-Ware Kitchen,Vietnamese,2.5,Stuttgart
+71,Holland LLC Bistro,Greek,2.6,Berlin
+72,"Armstrong, Smith and Hinton House",Japanese,4.1,Stuttgart
+73,Harvey-Rivera Cafe,Thai,3.8,Munich
+74,King-Banks Kitchen,Italian,3.1,Stuttgart
+75,Morgan-Guerra Diner,Thai,3.0,Munich
+76,Lewis PLC Kitchen,French,3.8,Munich
+77,Williams and Sons Cafe,Lebanese,3.8,Stuttgart
+78,Hansen-Perkins Cafe,Greek,4.5,Hamburg
+79,"Wells, Liu and Russell Bistro",American,3.2,Cologne
+80,Hale-Smith Bistro,Korean,4.0,Stuttgart
+81,"Moore, Parsons and Acosta Cafe",Mediterranean,4.9,Cologne
+82,"Benson, Johnson and Romero Cafe",French,3.6,Stuttgart
+83,Griffin-Walter Diner,Thai,2.6,Stuttgart
+84,Leon-Lee Diner,Mediterranean,4.6,Cologne
+85,Murray PLC Diner,Mediterranean,2.9,Berlin
+86,Conrad LLC House,Turkish,4.3,Cologne
+87,Fleming-George Kitchen,Turkish,2.9,Berlin
+88,Leblanc-Garcia Diner,Indian,4.4,Berlin
+89,Lopez-Walters House,Vietnamese,4.4,Berlin
+90,"Berg, Morrow and Jones Kitchen",French,3.9,Munich
+91,Chambers-Hall Cafe,Thai,4.3,Berlin
+92,"Johnson, Smith and Davenport Bistro",American,3.9,Hamburg
+93,"Mendez, Miller and Park Diner",American,4.1,Düsseldorf
+94,Lewis PLC House,Vietnamese,4.6,Munich
+95,"Guzman, Fischer and Warren Cafe",Greek,4.2,Hamburg
+96,Butler-Forbes Cafe,Spanish,4.8,Frankfurt
+97,Gomez PLC Diner,Mediterranean,4.0,Stuttgart
+98,Hale PLC Diner,Greek,4.8,Düsseldorf
+99,"Casey, Pope and Gay House",Chinese,4.0,Hamburg
+100,Kim-Smith Kitchen,Indian,3.3,Frankfurt
+101,"Reynolds, Jordan and Adams Cafe",Korean,4.2,Munich
+102,Valenzuela Group House,Italian,3.4,Stuttgart
+103,Johnson Inc Kitchen,Mediterranean,3.2,Hamburg
+104,"Conway, Ferguson and Gentry Diner",Italian,4.7,Stuttgart
+105,"Mckinney, Jones and Pena Diner",Korean,4.9,Berlin
+106,Grant-Jordan House,Italian,4.4,Frankfurt
+107,Ward-Deleon Cafe,Mediterranean,2.8,Cologne
+108,Smith LLC Bistro,Thai,3.9,Stuttgart
+109,"Leonard, Reed and Guerra Cafe",American,4.6,Cologne
+110,"Contreras, Holder and Cunningham House",Chinese,3.9,Stuttgart
+111,Chan PLC Cafe,Turkish,3.9,Düsseldorf
+112,Stevenson Ltd Diner,Japanese,4.7,Munich
+113,Garcia Ltd House,Turkish,2.9,Cologne
+114,Smith PLC Kitchen,Korean,2.8,Munich
+115,"Reed, Cook and Allen Cafe",Italian,3.8,Frankfurt
+116,Esparza-Johnson Cafe,Indian,3.8,Munich
+117,"Key, Henry and Oneill Bistro",Chinese,4.6,Hamburg
+118,Baker Inc House,Chinese,4.2,Frankfurt
+119,Winters-Morris Cafe,Lebanese,4.4,Frankfurt
+120,Kelly-Conway Kitchen,Spanish,4.9,Berlin
+121,"Harris, Irwin and Bailey House",Chinese,2.8,Berlin
+122,Zuniga PLC Kitchen,Thai,4.4,Cologne
+123,"Moore, Parker and Mcdonald Cafe",French,4.1,Stuttgart
+124,Baker PLC House,Vietnamese,4.3,Stuttgart
+125,Ray Group Bistro,French,4.7,Stuttgart
+126,Smith-Lee Cafe,American,3.3,Frankfurt
+127,Malone-Mitchell Diner,Mediterranean,3.1,Munich
+128,Freeman-Franklin House,Mexican,4.6,Cologne
+129,Ruiz Ltd Diner,Korean,3.3,Cologne
+130,Fisher Ltd Diner,Turkish,3.6,Frankfurt
+131,Pittman-Moore Cafe,Italian,3.2,Hamburg
+132,Hansen-Barajas Cafe,Turkish,3.1,Frankfurt
+133,Bailey-Hood Bistro,Vietnamese,2.7,Frankfurt
+134,Hicks-Phillips Kitchen,Spanish,4.6,Cologne
+135,Miles-Stokes Kitchen,Spanish,2.9,Cologne
+136,"Kelley, Martinez and Ward Bistro",Spanish,4.0,Hamburg
+137,Ross Group Bistro,Mexican,3.4,Cologne
+138,"Bauer, Torres and Horn Kitchen",Mediterranean,3.7,Stuttgart
+139,"Kelley, Riley and Thompson Diner",Chinese,3.9,Düsseldorf
+140,Williams-Williams House,Thai,4.4,Berlin
+141,"Gonzalez, Curry and Moreno Kitchen",Lebanese,2.8,Cologne
+142,"Jones, Jacobson and Nichols Kitchen",Indian,3.6,Düsseldorf
+143,Sosa-Garrett Bistro,Korean,3.1,Düsseldorf
+144,Lamb Inc Kitchen,Mediterranean,4.2,Düsseldorf
+145,Walters and Sons Cafe,Mediterranean,3.6,Frankfurt
+146,White Inc House,Thai,3.5,Stuttgart
+147,"Riley, Holmes and Watkins Cafe",Chinese,4.0,Hamburg
+148,Powell-Contreras Bistro,Thai,2.9,Stuttgart
+149,"Carpenter, Gamble and Freeman Kitchen",Greek,2.6,Hamburg
+150,"Reed, Johnson and Barber Kitchen",Lebanese,4.5,Cologne
+151,"Hood, Long and Montgomery House",Mediterranean,4.3,Düsseldorf
+152,"Reed, Lawson and Morgan House",Thai,3.1,Frankfurt
+153,"Flores, Parker and Brewer House",Japanese,4.7,Cologne
+154,"Harvey, Stein and Zimmerman Diner",Italian,2.7,Cologne
+155,Hicks Inc Diner,American,3.4,Munich
+156,Haas Inc Kitchen,Korean,3.1,Cologne
+157,Lynch-Arnold Diner,Korean,2.9,Munich
+158,"Reid, King and Allison Cafe",Mexican,4.8,Berlin
+159,"Lynn, Tucker and Brown Cafe",Italian,2.6,Berlin
+160,Peters Inc Cafe,Turkish,4.3,Stuttgart
+161,Ferrell-Vincent Diner,Indian,3.5,Cologne
+162,"Martin, Leblanc and Allen Diner",Lebanese,4.3,Frankfurt
+163,"Smith, Rosario and Reed House",Greek,3.4,Düsseldorf
+164,White PLC Diner,Korean,3.9,Munich
+165,Ferguson PLC House,French,3.1,Stuttgart
+166,Moore-Sparks Cafe,Greek,3.7,Frankfurt
+167,"Thomas, Figueroa and Johnson Kitchen",Indian,3.2,Cologne
+168,Krueger and Sons Cafe,Chinese,4.4,Munich
+169,Potts and Sons Bistro,Indian,4.2,Cologne
+170,Sanchez-Wright Kitchen,Chinese,2.6,Munich
+171,Chandler and Sons Kitchen,Vietnamese,3.2,Stuttgart
+172,Hansen-Smith Kitchen,Indian,4.2,Frankfurt
+173,Wright-Wood Diner,Greek,4.4,Düsseldorf
+174,"Holloway, Glover and Ramos Bistro",Japanese,4.8,Munich
+175,Green Group House,Thai,4.5,Stuttgart
+176,"Miller, Todd and Brown Bistro",Mediterranean,4.3,Hamburg
+177,"Day, Cooper and Brewer Diner",Vietnamese,2.8,Hamburg
+178,Burke-Garcia Diner,Mexican,5.0,Frankfurt
+179,Williams and Sons House,Lebanese,3.3,Munich
+180,"Riggs, Morgan and Frazier Cafe",French,3.9,Berlin
+181,Moreno-Leonard Cafe,Korean,5.0,Cologne
+182,"Campbell, Duncan and Sutton Kitchen",Mexican,3.5,Berlin
+183,"Edwards, Johnson and Floyd Bistro",Mediterranean,2.6,Düsseldorf
+184,Miller-Bell Kitchen,American,3.8,Stuttgart
+185,Arnold-Miller Kitchen,American,3.2,Munich
+186,Sullivan-Leon House,Mediterranean,2.6,Hamburg
+187,Miller Ltd Bistro,Chinese,3.6,Hamburg
+188,"Romero, Crosby and Davis House",Chinese,2.8,Berlin
+189,"York, Warren and Green Cafe",Mexican,4.1,Düsseldorf
+190,"Moreno, Davidson and Hart Kitchen",Greek,3.4,Frankfurt
+191,Ryan-Myers Diner,Thai,2.9,Stuttgart
+192,"Delacruz, Martinez and Eaton Diner",American,3.1,Düsseldorf
+193,Ramos Inc Kitchen,Korean,4.3,Düsseldorf
+194,Cole Ltd Kitchen,Italian,3.1,Munich
+195,Gilbert Ltd Bistro,Thai,3.2,Düsseldorf
+196,"Lang, Miller and Nelson Kitchen",Spanish,4.6,Düsseldorf
+197,Garcia Ltd Bistro,Mediterranean,4.6,Frankfurt
+198,"Smith, Chaney and Wood House",Thai,4.2,Düsseldorf
+199,"Dunn, Johnson and Douglas Cafe",Chinese,2.8,Hamburg
+200,Perkins-Reyes Diner,Mediterranean,4.7,Hamburg
+201,Harris-Sanchez Cafe,Italian,2.9,Hamburg
+202,"Tran, Camacho and Hernandez Diner",Mediterranean,3.8,Stuttgart
+203,"Dominguez, Ford and Carpenter Bistro",French,3.7,Stuttgart
+204,Berg Ltd Kitchen,Indian,4.1,Munich
+205,"Watson, Williams and Andrews Bistro",Japanese,3.2,Frankfurt
+206,"Bowen, Little and Shepard House",Chinese,2.8,Frankfurt
+207,Reynolds PLC Cafe,Japanese,3.9,Berlin
+208,Green-Byrd Diner,Mediterranean,3.0,Berlin
+209,"Johnson, Bryant and Woods Cafe",French,3.3,Düsseldorf
+210,Figueroa-Hodge Kitchen,French,3.3,Munich
+211,"Duffy, Odonnell and Powers Diner",Mexican,2.7,Berlin
+212,Payne-Walsh Cafe,Korean,5.0,Hamburg
+213,"Martin, Bradford and Ryan Diner",Turkish,3.4,Munich
+214,Cohen Ltd House,Chinese,4.9,Stuttgart
+215,Fisher-Robinson Diner,Mexican,3.1,Munich
+216,Stevenson-Hatfield House,Italian,2.9,Berlin
+217,Young-Rogers Bistro,Chinese,3.7,Düsseldorf
+218,James Group House,Mexican,2.8,Munich
+219,Bond Inc Diner,Thai,4.3,Düsseldorf
+220,Hurley Inc Kitchen,American,3.3,Berlin
+221,Lee Inc Cafe,Turkish,3.4,Hamburg
+222,"Ruiz, Chapman and Medina Kitchen",Chinese,4.6,Hamburg
+223,Hays Group Cafe,Mexican,3.7,Frankfurt
+224,Rios-Hammond Diner,Indian,4.1,Hamburg
+225,"Allen, Ayers and Wilson Kitchen",French,4.6,Berlin
+226,Davis-Thomas Diner,Thai,2.5,Frankfurt
+227,"Rios, Lee and Sanchez House",Spanish,4.0,Munich
+228,Gonzalez-Patel Diner,Italian,3.9,Berlin
+229,Terry-Alexander Bistro,Lebanese,3.5,Munich
+230,Stevens Group House,Spanish,3.8,Stuttgart
+231,"Mills, Hayden and Johnson House",Greek,3.2,Cologne
+232,Ballard PLC Cafe,Turkish,3.6,Stuttgart
+233,Obrien-Thompson Kitchen,Thai,3.3,Berlin
+234,Hammond and Sons Bistro,Mexican,4.2,Berlin
+235,Duke Group House,Mexican,4.9,Hamburg
+236,"James, Anderson and Graves House",Lebanese,3.6,Munich
+237,Campbell-Crawford Bistro,Italian,4.0,Stuttgart
+238,Douglas-Reese Cafe,American,3.7,Frankfurt
+239,Horn-Reeves Kitchen,Turkish,3.8,Frankfurt
+240,Castillo-Knight Kitchen,Korean,3.3,Düsseldorf
+241,"Koch, Dean and Anderson Diner",Greek,3.4,Cologne
+242,Hughes-Garcia House,Mediterranean,4.6,Düsseldorf
+243,Johnson-Gibbs House,Indian,3.0,Berlin
+244,Holland-Lawrence Cafe,Greek,4.8,Munich
+245,Guerra LLC Diner,Indian,3.8,Hamburg
+246,Jackson-Miller Diner,Italian,3.6,Stuttgart
+247,Williams PLC Cafe,French,3.5,Stuttgart
+248,Berry-Howard Diner,American,3.2,Berlin
+249,"Hodge, Green and Buckley Diner",Korean,3.5,Stuttgart
+250,Fisher-Paul Cafe,French,4.4,Cologne
+251,Martinez-Kelley Bistro,Turkish,2.8,Berlin
+252,Roberts Ltd Bistro,Korean,4.8,Düsseldorf
+253,"Vaughn, Nunez and Fox House",Turkish,3.7,Hamburg
+254,"Burnett, Brown and Baker Cafe",Vietnamese,2.5,Stuttgart
+255,"Dunn, Washington and Allen Diner",Greek,4.6,Stuttgart
+256,Huang-Pope Cafe,Japanese,3.0,Frankfurt
+257,Park and Sons House,Greek,4.7,Hamburg
+258,Rodriguez Inc House,Korean,4.2,Cologne
+259,"Chapman, Tanner and Brown Cafe",Turkish,4.8,Frankfurt
+260,Harrison-Savage House,American,4.5,Stuttgart
+261,"Pace, Baker and Rodgers Bistro",Turkish,4.8,Frankfurt
+262,"Johnson, Lewis and Dyer Cafe",Spanish,4.6,Düsseldorf
+263,Harper Group Kitchen,Vietnamese,3.8,Cologne
+264,Winters-Blackburn Diner,Mexican,3.9,Frankfurt
+265,Williams-Bartlett Diner,Vietnamese,4.1,Stuttgart
+266,"Clayton, Snyder and Smith House",Mexican,3.8,Frankfurt
+267,"Brown, Miller and Glover House",Spanish,4.3,Cologne
+268,Thompson LLC Diner,Lebanese,4.8,Munich
+269,"Fields, Hicks and Tyler Kitchen",Turkish,4.8,Hamburg
+270,Walker-Thomas Bistro,Lebanese,3.4,Berlin
+271,Blanchard-Jones Cafe,Thai,4.9,Cologne
+272,"Hudson, Gibson and Andersen Bistro",Greek,3.6,Munich
+273,Meyers Inc House,Mediterranean,2.7,Berlin
+274,Palmer-Frazier Cafe,Chinese,3.6,Cologne
+275,Hughes-Kelley House,Korean,3.7,Frankfurt
+276,Delacruz-Gonzales Kitchen,Turkish,3.5,Frankfurt
+277,"Howard, Taylor and Fox Kitchen",American,4.5,Berlin
+278,Smith and Sons Diner,Korean,4.6,Düsseldorf
+279,Harris Group Cafe,Italian,3.4,Berlin
+280,Patterson Group Diner,Indian,3.7,Hamburg
+281,Garza Inc House,Turkish,5.0,Cologne
+282,Moore-Pugh Kitchen,Korean,3.8,Düsseldorf
+283,Branch and Sons Cafe,Turkish,2.9,Stuttgart
+284,Vargas Ltd Kitchen,Turkish,4.6,Munich
+285,Payne Group Diner,Spanish,2.6,Frankfurt
+286,"Klein, Collins and Henderson House",French,2.9,Hamburg
+287,Armstrong-Mitchell Cafe,Mediterranean,2.9,Hamburg
+288,"Hunt, Johnson and Anderson Kitchen",Italian,4.3,Düsseldorf
+289,Foster Group Bistro,Spanish,3.1,Hamburg
+290,Miller-Williams Diner,Mexican,3.5,Düsseldorf
+291,Wood-Estrada Cafe,Italian,3.5,Stuttgart
+292,"Kirby, Graham and Osborne Diner",French,2.8,Berlin
+293,Gonzales PLC Diner,Korean,4.0,Berlin
+294,"Davis, Rodriguez and Brooks Bistro",Italian,3.1,Hamburg
+295,Baker LLC Diner,Lebanese,4.3,Hamburg
+296,Boone Inc Diner,Turkish,4.1,Frankfurt
+297,"Duarte, King and Rodriguez Cafe",Chinese,4.8,Stuttgart
+298,"Cook, Martin and Gonzales House",Vietnamese,3.4,Berlin
+299,Thompson-Ross House,Vietnamese,4.2,Düsseldorf
+300,"Pierce, Mora and Porter Diner",Lebanese,3.8,Stuttgart
+301,Ball Group House,Thai,3.5,Munich
+302,"Valdez, Reeves and Young Cafe",Chinese,2.9,Munich
+303,Miller Inc Bistro,Indian,3.4,Düsseldorf
+304,Levine-Anderson House,Vietnamese,2.9,Hamburg
+305,Brown-Camacho Bistro,Chinese,4.0,Munich
+306,Williams-Hayes Cafe,Italian,4.6,Munich
+307,"Duran, Coleman and Nash Cafe",Indian,4.6,Stuttgart
+308,"Roman, Williams and Simmons Cafe",Spanish,4.6,Cologne
+309,"Hoffman, Patel and Snow House",Spanish,3.2,Hamburg
+310,Kennedy and Sons Cafe,Japanese,4.1,Hamburg
+311,"Dominguez, Stewart and Weaver Cafe",Turkish,2.8,Stuttgart
+312,"Gomez, Warren and Robertson Bistro",Indian,3.2,Hamburg
+313,"Raymond, Sanford and Castillo House",Indian,4.1,Berlin
+314,Jones-Carr House,Italian,3.4,Munich
+315,"Campbell, Wallace and Cox Bistro",Vietnamese,3.5,Berlin
+316,Flores-Johnson Cafe,Turkish,2.9,Düsseldorf
+317,Walker-Alvarado House,Korean,4.2,Düsseldorf
+318,Wolf Ltd Cafe,Vietnamese,2.7,Munich
+319,"Walton, Griffin and Archer Kitchen",Vietnamese,3.0,Düsseldorf
+320,Bradshaw-Ward House,Italian,4.1,Düsseldorf
+321,Huang and Sons House,Indian,4.0,Cologne
+322,"Santiago, Richardson and Wilson Cafe",Korean,3.4,Stuttgart
+323,"Castro, Tyler and Espinoza Cafe",Mexican,3.2,Frankfurt
+324,"Williams, Skinner and Mitchell Cafe",Italian,4.8,Frankfurt
+325,Rhodes-Raymond Cafe,Thai,4.1,Düsseldorf
+326,"Phillips, Boyer and Stewart House",American,4.2,Munich
+327,"Jones, Guerra and Reilly Diner",Turkish,4.6,Hamburg
+328,"Thomas, Gonzalez and Davis House",Korean,2.7,Düsseldorf
+329,Acosta-Anderson Diner,Japanese,3.3,Frankfurt
+330,Ford-Flores Kitchen,Turkish,3.2,Stuttgart
+331,"George, Adams and Morris House",Turkish,4.8,Berlin
+332,"Walters, Stephenson and Russell Cafe",Mediterranean,3.9,Düsseldorf
+333,Clements and Sons Bistro,Japanese,4.5,Frankfurt
+334,Johnson-Harper House,Indian,3.2,Düsseldorf
+335,Robinson Inc Diner,Thai,3.4,Cologne
+336,Cannon Group Diner,Chinese,3.5,Cologne
+337,"Cross, Rodriguez and Cross Bistro",Chinese,4.5,Munich
+338,Daniels-Morrow Bistro,Mexican,4.7,Hamburg
+339,Griffith Inc Cafe,Mediterranean,4.6,Düsseldorf
+340,Hubbard-Keith Kitchen,Mediterranean,2.5,Hamburg
+341,Parker-Arnold House,Indian,4.4,Hamburg
+342,Travis-Powell Kitchen,Mexican,4.1,Stuttgart
+343,"Fox, Hines and Park Diner",Lebanese,4.6,Cologne
+344,Young and Sons House,Lebanese,4.8,Düsseldorf
+345,Chavez-Rice Cafe,Japanese,3.2,Düsseldorf
+346,Wright-Gibson Bistro,Korean,3.6,Cologne
+347,"Ware, Trevino and Vincent Diner",Thai,4.3,Berlin
+348,Larson-Hoffman Bistro,Japanese,3.0,Stuttgart
+349,"Peters, Thompson and Moss Diner",Japanese,4.5,Berlin
+350,Gonzalez Ltd Kitchen,Italian,3.9,Hamburg
+351,"Martinez, Rivera and Ellis Cafe",French,3.5,Berlin
+352,"Wilson, Villarreal and Ford Cafe",Japanese,4.4,Hamburg
+353,"Mcclain, Bailey and Cohen Bistro",Lebanese,3.2,Stuttgart
+354,Peters Inc House,Japanese,4.4,Cologne
+355,Johnson-King Kitchen,Greek,4.0,Stuttgart
+356,Edwards Inc Cafe,Mexican,4.0,Düsseldorf
+357,Stone-Powers Kitchen,Turkish,4.0,Berlin
+358,Davis LLC Kitchen,Indian,4.8,Hamburg
+359,Patel-Parker House,Lebanese,4.5,Cologne
+360,Coleman Ltd House,Chinese,3.7,Düsseldorf
+361,"Johnson, Chan and Moore Diner",Italian,3.3,Cologne
+362,"Oneill, Sanchez and Dunlap House",Greek,4.8,Stuttgart
+363,Rodriguez-Drake Diner,Korean,5.0,Berlin
+364,Parker-Nelson Cafe,Thai,3.9,Stuttgart
+365,Riggs LLC Diner,Mediterranean,4.3,Stuttgart
+366,Lopez-Stevens Kitchen,Italian,4.8,Stuttgart
+367,"Garcia, Ward and Johnson House",American,4.1,Cologne
+368,Frazier-Gay Diner,Turkish,4.0,Berlin
+369,"Wong, Hernandez and Schmidt Cafe",Mexican,3.3,Frankfurt
+370,"Snow, Johnson and Martinez Kitchen",Mexican,2.7,Cologne
+371,George Group Kitchen,Indian,4.2,Frankfurt
+372,Douglas-May Cafe,Japanese,4.1,Düsseldorf
+373,"English, Humphrey and Phillips Kitchen",Korean,3.7,Düsseldorf
+374,Frank Group Cafe,Spanish,2.8,Munich
+375,Black-Bryant Kitchen,Mediterranean,3.6,Düsseldorf
+376,Mason-Meza Cafe,Korean,4.8,Hamburg
+377,Whitaker-Kirby House,Italian,4.4,Munich
+378,"Woods, Chase and Larson House",Vietnamese,3.0,Cologne
+379,Green Group House,American,4.8,Düsseldorf
+380,Walker-Shaw Diner,Korean,3.4,Berlin
+381,Scott-Davenport Kitchen,Italian,4.5,Düsseldorf
+382,"Collins, Jenkins and Goodwin Cafe",Turkish,4.5,Berlin
+383,"Cooper, Stephenson and Anderson House",Greek,4.8,Frankfurt
+384,"Powell, Alvarez and Thomas Cafe",Korean,4.3,Hamburg
+385,Mora and Sons Bistro,Mediterranean,2.7,Stuttgart
+386,Griffin Group Bistro,Vietnamese,3.6,Stuttgart
+387,Washington PLC Bistro,Lebanese,2.5,Stuttgart
+388,Harvey Ltd House,Korean,3.4,Cologne
+389,"Collins, Vaughn and Humphrey Bistro",Lebanese,3.4,Cologne
+390,Williams-Reyes Cafe,French,4.3,Düsseldorf
+391,"Day, Frost and Bowers Cafe",Mediterranean,4.7,Frankfurt
+392,Krause and Sons House,French,4.4,Düsseldorf
+393,"Lee, Rodriguez and Silva Cafe",Vietnamese,3.9,Stuttgart
+394,Brooks LLC Bistro,American,3.6,Berlin
+395,Powell-Rodgers Bistro,French,3.1,Cologne
+396,Williams Inc Cafe,Indian,4.9,Cologne
+397,Chase and Sons Diner,Spanish,2.8,Cologne
+398,"Elliott, Craig and Little Diner",Mexican,3.5,Düsseldorf
+399,"Moore, Stevens and Bray Diner",French,3.8,Cologne
+400,Sanford-Franklin Bistro,Greek,2.9,Cologne
+401,Miller Inc Cafe,Mediterranean,3.4,Hamburg
+402,"Wilson, Russell and Fuller Bistro",Spanish,2.7,Cologne
+403,Benton-Thomas Bistro,Chinese,3.1,Frankfurt
+404,Ferrell-Smith Kitchen,French,4.9,Düsseldorf
+405,Waters-Anderson House,Indian,3.7,Berlin
+406,Adams-Murphy Bistro,Mexican,4.5,Stuttgart
+407,Moon Ltd Kitchen,Japanese,4.5,Cologne
+408,"Young, Farmer and Acevedo Kitchen",Greek,3.2,Hamburg
+409,Ward-Levy Kitchen,Indian,3.9,Cologne
+410,Howard-Mathis Cafe,French,3.2,Berlin
+411,Navarro LLC Bistro,Greek,3.8,Düsseldorf
+412,Gomez LLC House,American,3.8,Munich
+413,Barnes Group Bistro,Mediterranean,4.3,Frankfurt
+414,Jennings and Sons Kitchen,Mexican,2.9,Berlin
+415,Gordon-Graham Bistro,Indian,3.2,Düsseldorf
+416,Dyer-Gallegos Bistro,Mediterranean,4.9,Cologne
+417,"Murphy, Johnson and Webster House",Japanese,3.1,Hamburg
+418,Burnett PLC Diner,Spanish,3.2,Munich
+419,Ellis-Smith Kitchen,Vietnamese,3.8,Cologne
+420,"Robles, Arnold and Rowe Diner",Korean,3.0,Cologne
+421,"Oliver, Cross and Myers House",Indian,4.2,Cologne
+422,Phillips-Johnson Cafe,American,4.1,Stuttgart
+423,Griffin-Hopkins Diner,Japanese,3.4,Munich
+424,Mcdonald-Fuller House,Spanish,2.5,Munich
+425,Reyes LLC Kitchen,Mediterranean,4.6,Düsseldorf
+426,Cunningham Ltd Bistro,Chinese,3.0,Berlin
+427,Nelson Inc Kitchen,Vietnamese,2.9,Cologne
+428,Jackson-Wong Kitchen,Korean,4.7,Hamburg
+429,Rogers PLC Cafe,Greek,4.3,Stuttgart
+430,Cunningham PLC Kitchen,Japanese,3.9,Cologne
+431,Shah PLC Cafe,Lebanese,4.3,Berlin
+432,Garcia-Riley Cafe,Vietnamese,3.9,Frankfurt
+433,Cross and Sons Diner,Mediterranean,4.3,Stuttgart
+434,Perez-Michael House,French,3.2,Frankfurt
+435,Davis LLC Bistro,Mexican,4.3,Stuttgart
+436,Patel-Weaver Cafe,Spanish,4.4,Munich
+437,Meadows Ltd Cafe,American,3.2,Stuttgart
+438,"Hale, Crawford and Frank House",Thai,4.5,Berlin
+439,Daugherty Group Bistro,Lebanese,3.7,Frankfurt
+440,Scott Ltd Cafe,Japanese,3.9,Hamburg
+441,"Small, Stone and Martin House",Thai,3.0,Munich
+442,Taylor-Lewis Kitchen,Chinese,2.6,Stuttgart
+443,"Hooper, Kennedy and Rollins Kitchen",Greek,3.0,Düsseldorf
+444,"Hernandez, Wilcox and Kennedy Diner",Mediterranean,3.0,Cologne
+445,"Boyd, Smith and Evans Diner",Korean,4.5,Hamburg
+446,"Henderson, Davis and Brewer Cafe",Indian,3.3,Munich
+447,Phelps-Sanders Kitchen,French,2.6,Munich
+448,"Mcdonald, Huerta and Hall House",Indian,3.2,Hamburg
+449,Blackburn LLC House,Turkish,4.7,Munich
+450,"Gilbert, Rowe and Park Cafe",Indian,4.5,Cologne
+451,"Gonzalez, Gomez and Luna Bistro",Indian,4.4,Hamburg
+452,"Taylor, Davies and Smith Bistro",Vietnamese,4.8,Munich
+453,Stanley Group House,Mediterranean,4.6,Berlin
+454,Campos PLC Cafe,Greek,2.8,Berlin
+455,Ford Group Bistro,Mexican,2.8,Munich
+456,Bryant-Neal Bistro,Spanish,3.9,Munich
+457,Camacho-Davila Kitchen,American,4.9,Munich
+458,Cochran Ltd Diner,Chinese,4.3,Stuttgart
+459,"Chavez, Leach and Patrick Diner",Thai,3.8,Munich
+460,"Hardy, Small and May House",Vietnamese,3.7,Frankfurt
+461,Stephenson Inc House,Spanish,4.3,Hamburg
+462,"Johnson, Brown and Horton House",Vietnamese,3.4,Stuttgart
+463,"Sparks, Mcdonald and Mason Cafe",Mexican,4.9,Düsseldorf
+464,Rivera-Finley Cafe,Chinese,4.0,Stuttgart
+465,Levy Group House,Greek,3.4,Munich
+466,Ford-Barton Cafe,Turkish,4.5,Berlin
+467,Barr-Collins Cafe,Korean,3.8,Stuttgart
+468,Duran Ltd Cafe,Japanese,3.9,Düsseldorf
+469,Mitchell-Rivera Bistro,Mexican,4.9,Berlin
+470,Lee-Davidson Diner,Indian,4.2,Frankfurt
+471,"Morgan, Ramos and Kline House",American,3.8,Berlin
+472,Robertson LLC House,Thai,4.9,Frankfurt
+473,Price LLC Diner,Mexican,4.7,Munich
+474,Barr Inc Bistro,Indian,3.7,Frankfurt
+475,"Stanley, Berry and Mills Bistro",French,2.6,Cologne
+476,"Porter, Rogers and Jones House",Greek,3.6,Stuttgart
+477,Cox and Sons House,Mediterranean,2.7,Düsseldorf
+478,Morales-Harris Diner,Lebanese,5.0,Hamburg
+479,Sutton-Calderon Bistro,Japanese,3.6,Hamburg
+480,Houston-Rice House,Mediterranean,3.6,Berlin
+481,Coleman LLC Diner,Vietnamese,4.1,Munich
+482,"Lam, Perkins and Simon Bistro",Italian,3.9,Düsseldorf
+483,Buckley-Woods Diner,Mexican,3.6,Hamburg
+484,"Mann, Taylor and Duran Cafe",Lebanese,3.0,Cologne
+485,Arroyo Group Cafe,Indian,3.0,Hamburg
+486,Santana and Sons Diner,Lebanese,4.5,Düsseldorf
+487,"Brown, Watson and Mitchell Kitchen",American,4.1,Cologne
+488,Moss PLC Bistro,Italian,4.8,Berlin
+489,Shepherd Group House,Chinese,3.1,Munich
+490,"Peterson, Wood and Long Cafe",Indian,2.8,Berlin
+491,"Lambert, Porter and Pennington House",Indian,4.5,Berlin
+492,Rodgers-Kelly Diner,Greek,3.2,Hamburg
+493,Allen Group Kitchen,Indian,3.4,Düsseldorf
+494,Carney Inc House,Mexican,3.9,Hamburg
+495,"Taylor, Sutton and Alexander House",Vietnamese,2.9,Düsseldorf
+496,Williams-Hill House,Spanish,3.0,Frankfurt
+497,Bell-Foster Diner,Korean,4.7,Cologne
+498,Aguilar-Price Cafe,Vietnamese,4.0,Cologne
+499,"Willis, Duffy and Thomas Diner",Spanish,2.8,Frankfurt
+500,Campos LLC Cafe,Indian,4.1,Cologne
