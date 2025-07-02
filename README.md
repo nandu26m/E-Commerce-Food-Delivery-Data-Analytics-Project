@@ -11,7 +11,7 @@ We use a realistic, relational database schema covering all aspects of the platf
 
 ### Schema Diagram
 
-![Database Schema](./docs/schema.png)
+![Database Schema](./docs/Schema.png)
 
 ## Database Tables
 
